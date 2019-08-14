@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+      
+      <meta charset="utf-8">
+      
+      <title> Prime </title>
+      
+      <style>
+            
+            div.rel {
+              position: absolute;
+              bottom: 0px;
+              right: 0;
+              width: 200px;
+             
+            }
+              
+          
+        
+        </style>
+    
+    </head>  
+    
+  <body>
+    
+      <form id="prim" style="text-align-last: center">
+           <input type="number" name="first" autofocus placeholder="Enter your number here" > <br><br>
+           <input type="button" onclick="primeFc()" value="Result">
+           <input type="reset">
+
+        </form>
+      
+      <div class="rel"> 
+            
+            <a href="C:\Users\Emilia\Desktop\Iulia\2019_things\in_cautarea_job-ului\Project\main.html" >Go back to the original page</a> 
+            
+        </div>
+
+      <script>
+          function primeFc(){
+              var p = document.getElementById("prim");
+              var count = 0;
+              for(var i = 2; i < parseInt(p[0].value); i++){
+
+                  if( parseInt(p[0].value) % i == 0 )
+                     {  count = count + 1 ; }
+              }
+              if ( count == 0)
+                  document.getElementById("demo").innerHTML = "Numarul e prim";
+              else
+                  document.getElementById("demo").innerHTML = "Numarul NU e prim";
+
+          } 
+
+            </script>
+
+      <p id="demo"> </p>
+    
+    
+    
+    </body>
+    
+</html>

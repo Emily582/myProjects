@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <title> Sum of two numbers </title>
+     <!--   <link rel="stylesheet" href="C:\Users\Emilia\Desktop\Iulia\2019_things\in_cautarea_job-ului\Project\main.html">  -->
+        
+        <style>
+            
+            div.rel {
+              position: absolute;
+              bottom: 0px;
+              right: 0;
+              width: 200px;
+             
+            }
+              
+          
+        
+        </style>
+            
+    
+    </head>
+    <body>
+        
+        
+        <form id="suma" style="text-align-last: center" >
+            <input type="number" name="first number" value="0" autofocus placeholder="Enter a number" ><br> <!-- the value attribute can                                                         miss, also the name -->
+            <input type="number" name="second number" value="0" placeholder="Enter a number"><br><br>
+            <input type="button" onclick="sum()" value="Result">
+            <input type="reset">
+
+
+        </form>
+            
+          
+            
+        <div class="rel"> 
+            
+            <a href="C:\Users\Emilia\Desktop\Iulia\2019_things\in_cautarea_job-ului\Project\main.html" >Go back to the original page</a> 
+            
+        </div>
+        
+        <script>
+          function sum(){ 
+            var s = document.getElementById("suma");
+            var rasp = 0;
+            for(var i=0; i<2; i++)
+                {
+                    rasp = parseInt(s[i].value) + rasp;
+                }
+            document.getElementById("demo").innerHTML = rasp;
+          } 
+            </script>
+
+        <p id="demo"> </p>
+
+    </body>
+</html>

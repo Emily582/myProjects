@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            
+            <meta charset="utf-8">
+        
+            <title> Reversion </title>
+            
+            <style>
+            
+            div.rel {
+              position: absolute;
+              bottom: 0px;
+              right: 0;
+              width: 200px;
+             
+            }
+              
+          
+        
+        </style>
+        
+        </head>
+    
+        <body>
+            
+            <form id="reversul" style="text-align-last: center">
+                <input type="text" name="rev" placeholder="Enter a string here" autofocus >
+                <input type="button" onclick="revFunct()" value="Rasp">
+                <input type="reset">
+            
+            </form> 
+            
+            <div class="rel"> 
+            
+            <a href="C:\Users\Emilia\Desktop\Iulia\2019_things\in_cautarea_job-ului\Project\main.html" >Go back to the original page</a> 
+            
+        </div>
+            
+            <script>
+                function revFunct(){
+                    let r = document.getElementById("reversul");
+                    let rasp = r[0].value;
+                    var aux = "";
+                    for(let i = rasp.length-1; i>=0; i--)  {
+                       aux = aux + rasp[i];
+                       
+                   } 
+                        
+                   document.getElementById("demo").innerHTML = aux;  
+                }  
+                 
+            </script>
+            
+            <p id="demo"> </p>
+        
+        
+        </body>
+    
+</html>

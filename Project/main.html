@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title> Option menu </title>
+        
+        <link rel="stylesheet" href="C:\Users\Emilia\Desktop\Iulia\2019_things\in_cautarea_job-ului\Project\normalize.css">
+        
+        <link rel="stylesheet" href="C:\Users\Emilia\Desktop\Iulia\2019_things\in_cautarea_job-ului\Project\aspect.css">
+
+        </head>
+    <body>
+
+        <h1 style="text-align-last: center"> Select an option: </h1>
+
+        <form style="text-align-last: center" >
+          <select id="opt" name="mathematical">
+              <option value="0"> Sum of two </option>
+              <option value="1"> Max of three </option>
+              <option value="2"> Prime number </option>
+              <option value="3"> Reverse string </option>
+          </select>
+          <br> <br>
+         <!-- <input type="button" onclick="op()" value="Submit"> -->
+            <button type="button" onclick="op()">Submit</button>
+            
+        </form>
+
+        <script>
+            function op() {
+              var sel = document.getElementById("opt");
+              var sell = sel.options[sel.selectedIndex].value;
+              var rasp;
+
+              switch (sell) {
+                case '0':
+                 window.open("C:/Users/Emilia/Desktop/Iulia/2019_things/in_cautarea_job-ului/Project/sumFunction.html");
+                  break;
+
+                case '1':
+                  window.open("C:/Users/Emilia/Desktop/Iulia/2019_things/in_cautarea_job-ului/Project/maxFunction.html");
+                  break;
+
+                case '2':
+                  window.open("C:/Users/Emilia/Desktop/Iulia/2019_things/in_cautarea_job-ului/Project/primeFunction.html");
+                  break;
+                case '3':
+                  window.open("C:/Users/Emilia/Desktop/Iulia/2019_things/in_cautarea_job-ului/Project/reverseFunction.html");
+                  break;
+
+                default:
+                  rasp = "Choose one option from above!";
+
+             }
+            //document.getElementById("demo").innerHTML = rasp; 
+            }
+        </script>
+
+
+
+
+
+    </body>
+</html>
+
