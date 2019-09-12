@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Learn how to program</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/myStyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\Emilia\Desktop\Iulia\2019_things\web_development\bootstrap-3.3.7-dist\font-awesome-4.7.0\css\font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    
+       <!--top navigation bar -->
+    <nav class="navbar navbar-default navbar-fixed-top"> 
+        <div class="container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only"> Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> 
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/index_bt3.html"> Home </a></li>
+                    <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/About_page.html"> About </a></li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Examples</li>
+                            <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/html_ExamplePage.html">HTML</a></li>
+                            <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/JavaScript_ExamplePage.html">JavaScript</a></li>
+                            <li class="dropdown-header">Tutorials</li>
+                            <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/html_TutorialPage.html">HTML</a></li>
+                            <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/JavaScript_TutorialPage.html">JavaScript</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>  
+        </div>
+    </nav>
+    
+    <div class="container">
+        
+        <div id="myImage"> <img src="img/JavaScript.png" alt="HTML tutorial" style="width:800px;height:300px;"> 
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>What is HTML?</h1>
+                <p>The language for programming web pages</p>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-default" id="mySettings">
+                    <div class="panel-heading"> <h5 class="panel-title">JavaScript example</h5></div>
+                    <div class="panel-body"> <pre>
+&ltbutton onclick="myFunction()"&gtClick Me!&lt/button&gt
+
+&ltscript&gt
+    function myFunction() {
+        var x = document.getElementById("demo");
+        x.style.fontSize = "25px";
+        x.style.color = "red";
+                   }
+&lt/script&gt </pre>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <h1>JavaScript basic example</h1>
+        <pre>
+ &lt!DOCTYPE html&gt 
+ &lthtml&gt 
+ &ltbody&gt 
+
+     &ltp id="demo"&gt JavaScript can change HTML content. &lt/p&gt 
+
+     &ltbutton type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'&gt Click Me! &lt/button&gt 
+
+
+     &ltp&gt JavaScript can change HTML attribute values. &lt/p&gt 
+
+     &ltp&gt In this case JavaScript changes the value of the src (source) attribute of an image. &lt/p&gt 
+
+     &ltbutton onclick="document.getElementById('myImage').src='pic_bulbon.gif'"&gt Turn on the light &lt/button&gt 
+
+     &ltimg id="myImage" src="pic_bulboff.gif" style="width:100px"&gt 
+
+     &ltbutton onclick="document.getElementById('myImage').src='pic_bulboff.gif'"&gt Turn off the light &lt/button&gt 
+
+
+     &ltp id="demo"&gt JavaScript can change the style of an HTML element. &lt/p&gt 
+
+     &ltbutton type="button" onclick="document.getElementById('demo').style.fontSize='35px'"&gt Click Me! &lt/button&gt 
+
+
+     &ltp id="demo"&gt JavaScript can hide HTML elements. &lt/p&gt 
+
+     &ltbutton type="button" onclick="document.getElementById('demo').style.display='none'"&gt Click Me! &lt/button&gt 
+
+
+     &ltp&gt JavaScript can show hidden HTML elements. &lt/p&gt 
+
+     &ltp id="demo" style="display:none"&gt Hello JavaScript! &lt/p&gt 
+
+     &ltbutton type="button" onclick="document.getElementById('demo').style.display='block'"&gt Click Me! &lt/button&gt
+
+
+ &lt/body&gt 
+ &lt/html&gt 
+        </pre>
+        <p>For more complex examples see <a href="https://www.w3schools.com/js/js_examples.asp" target="_blank">w3schools.com</a> website.</p>
+
+    </div>
+      
+    
+      <!-- Fixed footer-->
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <div class="navbar-text pull-left">
+                <p>copyright LearnHowToProgram</p>
+            </div>
+            <div class="navbar-text pull-right">
+                <a href="https://newsroom.fb.com/"><i class="fa fa-facebook-official fa-2x"></i></a>
+                <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                <a href="https://support.google.com/plus/?hl=en#topic=9259565"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+      
+
+     
+      
+      
+      
+      
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

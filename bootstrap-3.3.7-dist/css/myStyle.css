@@ -1,0 +1,18 @@
+body {
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+  /*  background-color: beige;  */
+}
+
+#myImage {
+    
+    margin-left: 160px;
+}
+
+#mySettings {
+    
+    margin-top: 20px;
+}
+

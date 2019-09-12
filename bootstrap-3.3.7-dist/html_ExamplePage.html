@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Learn how to program</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/myStyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\Emilia\Desktop\Iulia\2019_things\web_development\bootstrap-3.3.7-dist\font-awesome-4.7.0\css\font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    
+       <!--top navigation bar -->
+    <nav class="navbar navbar-default navbar-fixed-top"> 
+        <div class="container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only"> Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> 
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/index_bt3.html"> Home </a></li>
+                    <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/About_page.html"> About </a></li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Examples</li>
+                            <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/html_ExamplePage.html">HTML</a></li>
+                            <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/JavaScript_ExamplePage.html">JavaScript</a></li>
+                            <li class="dropdown-header">Tutorials</li>
+                            <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/html_TutorialPage.html">HTML</a></li>
+                            <li><a href="C:/Users/Emilia/Desktop/Iulia/2019_things/web_development/bootstrap-3.3.7-dist/JavaScript_TutorialPage.html">JavaScript</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>  
+        </div>
+    </nav>
+    
+    <div class="container">
+        
+        <div id="myImage"> <img src="img/HTML.png" alt="HTML tutorial" style="width:800px;height:300px;"> 
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>What is HTML?</h1>
+                <ul>
+                    <li>HTML stands for Hyper Text Markup Language</li>
+                    <li>HTML describes the structure of a Web page</li>
+                    <li>HTML consists of a series of elements</li>
+                    <li>HTML elements tell the browser how to display the content</li>
+                    <li>HTML elements are represented by tags</li>
+                    <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+                    <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-default" id="mySettings">
+                    <div class="panel-heading"> <h5 class="panel-title">HTML example</h5></div>
+                    <div class="panel-body"> <pre>
+                    &lt !DOCTYPE html &gt
+                    &lt html &gt
+                        &lt title&gt HTML Tutorial &lt /title &gt
+                        &lt body &gt
+                            &lt h3 &gt This is a heading &lt /h3 &gt
+                            &lt p &gt This is a paragraph. &lt /p &gt
+                        &lt /body &gt
+                    &lt /html &gt </pre>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <h1>HTML basic example</h1>
+        <pre>
+        &lt!DOCTYPE html&gt
+        &lthtml&gt
+        &ltbody&gt
+
+            &lth1&gt This is heading 1 &lt/h1&gt
+            &lth2&gt This is heading 2 &lt/h2&gt
+            &lth3&gt This is heading 3 &lt/h3&gt
+
+            &ltp&gt This is a paragraph. &lt/p&gt
+
+            &lta href="https://www.w3schools.com"&gtThis is a link &lt/a&gt
+
+            &ltp&gt HTML images are defined with the img tag: &lt/p&gt
+            &ltimg src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"&gt
+
+            &ltp&gt HTML buttons are defined with the button tag: &lt/p&gt
+            &ltbutton&gtClick me&lt/button&gt
+
+            &ltp&gt An Unordered HTML List &lt/p&gt
+            &ltul&gt
+              &ltli&gt Coffee&lt/li &gt
+              &ltli&gt Tea&lt/li &gt
+              &ltli&gt Milk&lt/li &gt
+            &lt/ul&gt  
+            &ltp&gt An Ordered HTML List &lt/p&gt
+            &ltol&gt
+              &ltli&gt Coffee&lt/li &gt
+              &ltli&gt Tea&lt/li &gt
+              &ltli&gt Milk&lt/li &gt
+            &lt/ol&gt 
+
+
+        &lt/body&gt
+        &lt/html&gt
+        </pre>
+        <p>For more complex examples see <a href="https://www.w3schools.com/html/html_examples.asp" target="_blank">w3schools.com</a> website.</p>
+
+    </div>
+      
+    
+      <!-- Fixed footer-->
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <div class="navbar-text pull-left">
+                <p>copyright LearnHowToProgram</p>
+            </div>
+            <div class="navbar-text pull-right">
+                <a href="https://newsroom.fb.com/"><i class="fa fa-facebook-official fa-2x"></i></a>
+                <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                <a href="https://support.google.com/plus/?hl=en#topic=9259565"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+      
+
+     
+      
+      
+      
+      
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
