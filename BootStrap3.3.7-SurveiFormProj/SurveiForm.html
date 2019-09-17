@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Survei Form</title>
+
+    <!-- Bootstrap -->
+    <link href="C:\Users\Emilia\Desktop\Iulia\2019_things\web_development\BootStrap3.3.7-SurveiFormProj\css\bootstrap.min.css" rel="stylesheet">
+    <link href="C:\Users\Emilia\Desktop\Iulia\2019_things\web_development\BootStrap3.3.7-SurveiFormProj\css\myStyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\Emilia\Desktop\Iulia\2019_things\web_development\BootStrap3.3.7-SurveiFormProj\font-awesome-4.7.0\css\font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+ 
+  </head>
+  <body>
+      
+      <h1 style="text-align: center"><b>Survey Form</b></h1><br>
+      <div id="FirstContainer"class="container">
+          
+          <p style="text-align: center">Let us know how we can improve freeCodeCamp</p>
+          <form id="FirstForm" role="form" action="#">
+              <div class="row">
+                  <div class="col-md-4"> 
+                      <div class="form-group" style="text-align: right">
+                      <label for="name" > * Name: </label>    
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="form-group">     
+                      <input type="text" placeholder="Enter your name" class="form-control" id="name">     
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <div class="form-group" style="text-align: right">
+                      <label for="email"> * Email: </label>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="form-group">
+                      <input type="email" placeholder="Enter your email" class="form-control" id="email">     
+                      </div>
+                  </div>  
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="form-group" style="text-align: right">
+                      <label for="number"> * Age: </label>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="form-group">
+                      <input type="number" placeholder="Age" class="form-control" id="number">     
+                      </div>
+                  </div>  
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <p style="text-align: right">Which option best describes your current role?</p>
+                  </div>
+                  <div class="col-md-3">
+                      <select class="browser-default custom-select">
+                      <option disabled>Select an option</option>
+                      <option selected value="Student">Student</option>
+                      <option value="Full Time Job">Full Time Job</option>
+                      <option value="Full Time Learner">Full Time Learner</option>
+                      <option value="Prefer not to say">Prefer not to say</option>
+                      <option value="Other">Other</option>
+                      </select>
+                  </div>  
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <p style="text-align: right">* How likely is that you would recommend freeCodeCamp to a friend?</p>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="checkbox">
+                          <label><input type="radio">Definetly</label><br>
+                          <label><input type="radio">Maybe</label><br>
+                          <label><input type="radio">Not sure</label>
+                      </div>
+                  </div>  
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <p style="text-align: right">What do you like most in FCC:</p>
+                  </div>
+                  <div class="col-md-3">
+                      <select class="browser-default custom-select">
+                      <option selected disabled>Select an option</option>
+                      <option value="Student">Challenges</option>
+                      <option value="Full Time Job">Projects</option>
+                      <option value="Full Time Learner">Community</option>
+                      <option value="Prefer not to say">Open source</option>
+                      </select>
+                  </div>  
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <p style="text-align: right">Things that should be improved in the future (Check all that apply):</p>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="checkbox">
+                          <label><input type="checkbox">Front-end Projects</label><br>
+                          <label><input type="checkbox">Back-end Projects</label><br>
+                          <label><input type="checkbox">Challenges</label><br>
+                          <label><input type="checkbox">Open Source Community</label><br>
+                          <label><input type="checkbox">Gitter help rooms</label><br>
+                          <label><input type="checkbox">Videos</label><br>
+                          <label><input type="checkbox">City Meetups</label><br>
+                          <label><input type="checkbox">Wiki</label><br>
+                          <label><input type="checkbox">Forum</label><br>
+                          <label><input type="checkbox">Additional Courses</label>
+                      </div>
+                  </div>  
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <p style="text-align: right">Any Comments or Suggestions?</p>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="form-group">
+                          <textarea name="message" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+                      </div>
+                  </div>  
+              </div>
+              <div id="SecondContainer" class="container" ><button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+          </form>
+      
+      </div>
+      
+      
+
+     
+      
+      
+      
+      
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
