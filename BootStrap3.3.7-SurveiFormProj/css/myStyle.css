@@ -19,7 +19,18 @@ h1 {
     margin-left: 60px;
     margin-right: 60px;
     padding-bottom: 20px;
+/*    padding-left: 160px; */
+    font-family: 'Open Sans';
       
+}
+
+label{
+    
+    font-weight: normal;
+}
+
+.top-buffer{
+    margin-top: 20px;
 }
 
 #FirstForm{
@@ -30,5 +41,5 @@ h1 {
 
 #SecondContainer{
     
-  
+    margin-left: 150px;
 }
