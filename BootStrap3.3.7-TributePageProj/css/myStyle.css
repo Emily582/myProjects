@@ -1,0 +1,53 @@
+body {
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+  /*  background-color: beige;  */
+}
+
+#myNavbar{
+    
+     padding-bottom: 10px;
+}
+
+
+
+
+
+#myContainer{
+    background-color: rgb(235, 232, 224); 
+    width: 1340px;
+    padding: 10px;
+    margin: 20px 5px 20px 5px;
+    text-align:left;
+}
+
+strong {
+    margin-left: 200px;
+}
+
+#myImage {
+    
+    margin-left: 10px;
+}
+
+#ContainerImage{
+    background-color: white;
+    text-align: center;
+
+    
+}
+
+
+
+#ContainerText{
+    background-color: rgb(235, 232, 224); 
+   
+    padding: 20px 100px 20px 300px;
+    margin-top: inherit;
+    margin-right: inherit;
+    margin-bottom: inherit;
+    margin-left: inherit;
+   
+}
