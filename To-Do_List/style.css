@@ -1,0 +1,96 @@
+body {
+    background-color: brown;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.todo-wrapper {
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+}
+
+.todo-wrapper h2 {
+    margin: 0;
+
+}
+
+.todo-wrapper p {
+    font-style: italic;
+    color: dimgray;
+}
+
+.todo-wrapper ol {
+    margin: 20px 0;
+}
+
+.todo-wrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;  
+    user-select: none;
+}
+
+.todo-wrapper .completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo-wrapper .style-button {
+    margin: 10px 5px; 
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.todo-wrapper #empty-button {
+    background-color: firebrick;
+}
+
+.todo-wrapper #save-button {
+    background-color: green;
+}
+
+.todo-wrapper .style-button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.todo-wrapper input {
+    padding: 3px 6px;
+    margin-right: 10px;
+}
+
+.todo-wrapper form {
+    display: inline-block;
+}
+
+@media only screen and (min-width: 1400px) {
+    .todo-wrapper {
+        width: 50%;
+    }
+
+    .todo-wrapper input {
+        width: 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .todo-wrapper {
+        width: 30%;
+    }
+
+    .todo-wrapper input {
+        width: 250px;
+    }
+}
